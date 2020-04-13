@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-size:14px;
+        }
+        #container{
+            margin: 0 auto;
+            width: 1000px;
+            height:500px;
+            /*background-color: rosybrown;*/
+            
+         }
+         #header{
+             height: 100px;
+             background-color:skyblue;
+             margin-bottom: 5px;
+            
+         }
+         #main{
+             height: 500px;
+             background-color: sandybrown;
+             margin-bottom:5px ;
+            
+
+         }
+         #footer{
+             height: 80px;
+             background-color: salmon;
+            
+         }
+         #aside{
+             float: left;
+             height: 500px;
+             width: 400px;
+             background-color: thistle;
+             margin-right: 5px;
+            
+
+         }
+         #contain{
+             float:right;
+             height: 500px;
+             width: 595px;
+             background-color: rgb(155, 225, 235);     
+         }
+         #first{
+             height:80px;
+             background-color: rgb(238, 175, 196);
+             margin-bottom: 5px;
+             
+         }
+         
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="first">
+                <p>
+                    王志浩你是猪吗哈哈哈
+                </p>
+            </div>
+        </div>
+        <div id="main">
+                <div id="aside">
+                    <h2>幸福的标准</h2>
+    <p style="color: red;font-size: 12px;">心里有想看的人</p>
+    <p style="color: green;font-size: 14px;">眼中有想见得人</p>
+    <p style="color: blue;font-size: 16px;">手里有想拥有的东西</p>
+    <p style="font-size: 24px;">脸上有微笑</p> 
+        <table border="1" width="400px">
+        <tr>
+            <th colspan="3">星期一菜谱</th>
+        </tr>
+        <tr>
+            <td rowspan="2">素菜</td>
+            <td>青椒</td>
+            <td>茄子</td>
+        </tr>
+        <tr>
+            <td>小葱</td>
+            <td>豆腐</td>
+        </tr>
+        <tr>
+            <td rowspan="2">荤菜</td>
+            <td>羊肉</td>
+            <td>肘肉</td>
+        </tr>
+        <tr>
+            <td colspan="2">猪肉炒豆</td>
+            
+        </tr>
+    </table>
+
+                </div>
+                <div id="contain">
+                    <h2>用户满意度调查</h2><br>
+   <p>为了更好地为你提供产品或服务，请填写以下表单</p><br>
+   <h2>你购买的是哪款产品</h2>
+   <p>产品一</p>
+   <p>对产品满意度</p>
+   <table border="5" width="400px">
+   <ul>
+   <tr>
+        <td>   </td>
+        <td>非常不满意</td>
+        <td>不满意</td>
+        <td>一般</td>
+        <td>满意</td>
+        <td>非常满意</td>
+    </tr>
+    </ul>
+    <ul>
+    <tr>
+            <td>产品质量 </td>
+            <td ><input type="checkbox" value="1">1</td>
+            <td ><input type="checkbox" value="2">2</td>
+            <td ><input type="checkbox" value="3">3</td>
+            <td ><input type="checkbox" value="4">4</td>
+            <td ><input type="checkbox" value="5">5</td>
+    </tr>
+    </ul>
+    <ul>
+    <tr>
+            <td>产品性能 </td>
+            <td ><input type="checkbox" value="1">1</td>
+            <td ><input type="checkbox" value="2">2</td>
+            <td ><input type="checkbox" value="3">3</td>
+            <td ><input type="checkbox" value="4">4</td>
+            <td ><input type="checkbox" value="5">5</td>
+    </tr>
+    </ul>
+    <ul>
+    <tr>
+            <td>产品外观 </td>
+            <td ><input type="checkbox" value="1">1</td>
+            <td ><input type="checkbox" value="2">2</td>
+            <td ><input type="checkbox" value="3">3</td>
+            <td ><input type="checkbox" value="4">4</td>
+            <td ><input type="checkbox" value="5">5</td>
+    </tr>
+    </ul>
+    <ul>
+    <tr>
+            <td>总体评价 </td>
+            <td ><input type="checkbox" value="1">1</td>
+            <td ><input type="checkbox" value="2">2</td>
+            <td ><input type="checkbox" value="3">3</td>
+            <td ><input type="checkbox" value="4">4</td>
+            <td ><input type="checkbox" value="5">5</td>
+    </tr>
+    </ul>
+    
+       
+
+</table>
+<form>
+        产品改进建议：<br>
+        <textarea name="cp" rows="4" cols="30">  </textarea>
+        <p>如果以后有需要还会买我们的产品吗</p>
+        <input type="checkbox" >会
+        <br>
+        <input type="checkbox">不会
+        <br>
+        <input type="submit" value="提交">
+        <input type="reset" value="取消">
+</form>
+                </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+    
+</body>
+</html>

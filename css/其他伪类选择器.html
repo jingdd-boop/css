@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    a:not([href*="cn"])
+    {
+    color:red
+    }
+    :empty{
+    display: none;
+    background:red;
+    body a:lang(en){
+    border:1px solid green;
+    margin:5px;
+    padding:5px;
+    dispy:block;
+    }
+    :target{
+        font-size:30px;
+    }
+    </style>
+</head>
+<body>
+    <a href="http://www.phpcms.cn">PHPCMS</a><br>
+    <a href="http://www.51cto.com">51CTO</a><br>
+    <a></a>
+    <a id="click" href="http://www.sxiyu.com">SXITU</a><br>
+</body>
+</html>

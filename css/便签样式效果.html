@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>便签样式效果</title>
+    <style type="text/css">
+    #mySidenav a{
+        position: absolute;
+        left: -80px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(27, 24, 24);
+        border-radius: 0 5px 5px 0;
+
+    }
+
+    #mySidenav a:hover{
+        left:0;
+    }
+    #about{
+        top:50px;
+        background-color: turquoise;
+    }
+    #blog{
+        top:110px;
+        background-color: thistle;
+            }
+    #projects{
+        top:170px;
+        background-color: yellowgreen;
+        }
+    #contact{
+        top:230px;
+        background-color: rgb(206, 122, 122);
+    }
+
+    </style>
+</head>
+<body>
+<div id="mySidenav" class="mySidenav">
+    <a href="#" id="about">About</a>
+    <a href="#" id="blog">Blog</a>
+    <a href="#" id="projects">Projects</a>
+    <a href="#" id="contact">Contact</a>
+</div>    
+
+<div style="margin-left: 80px;">
+<h2>便签效果</h2>
+<p> 鼠标移动到指定便签显示内容</p>
+</div>
+</body>
+</html>
