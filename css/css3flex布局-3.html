@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css3-flex布局</title>
+    <style>
+        
+        .warp1{
+            flex-direction: row;
+            width: 500px;
+            height:300px;
+            display: flex;
+            background: #be8282;
+
+        }
+        .warp2{
+            flex-direction: row-reverse;
+            width: 500px;
+            height:300px;
+            display: flex;
+            background: #be8282;
+
+        }
+        .warp3{
+            flex-direction: column;
+            width: 500px;
+            height:300px;
+            display: flex;
+            background: #be8282;
+
+        }
+        .warp4{
+            flex-direction: column-reverse;
+            width: 500px;
+            height:300px;
+            display: flex;
+            background: #be8282;
+
+        }
+        
+
+        .contianer{
+            height: 100px;
+            width: 100px;
+            background: #c1db78;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp1">
+        <div class="contianer">1</div>
+        <div class="contianer">2</div>
+        <div class="contianer">3</div>
+    </div>
+    <div class="warp2">
+        <div class="contianer">1</div>
+        <div class="contianer">2</div>
+        <div class="contianer">3</div>
+    </div>
+    <div class="warp3">
+        <div class="contianer">1</div>
+        <div class="contianer">2</div>
+        <div class="contianer">3</div>
+    </div>
+    <div class="warp4">
+        <div class="contianer">1</div>
+        <div class="contianer">2</div>
+        <div class="contianer">3</div>
+    </div>
+    
+</body>
+</html>
