@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container1{
+      margin: 0;
+      padding: 0;
+      height: 500px;
+      width: 100%;
+     
+     
+    }
+    
+    .topIn1{
+      animation: topIn1 1s ease;
+    }
+    @keyframes topIn1 {
+      from { 
+        transform: translateY(50px);
+        opacity: 0; 
+        }
+      to { 
+        transform: translateY(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .top{
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      background-color: coral;
+    }
+    .bottom{
+      position:absolute;
+      top:200px;
+      left:100px;
+      z-index:999;
+   }
+   .bottomleftIn1{
+      animation: bottomleftIn1 3s ease;
+    }
+    @keyframes bottomleftIn1 {
+      from { 
+        transform: translateY(50px);
+        opacity: 0; 
+        }
+      to { 
+        transform: translateY(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .bottom .left{
+      width: 200px;
+      height: 230px;
+      border-radius: 10px;
+      margin-left: 30px;
+      background-color: cornflowerblue;
+      float: left;
+      
+    }
+    .bottomcenterIn1{
+      animation: bottomcenterIn1 5s ease;
+    }
+    @keyframes bottomcenterIn1 {
+      from { 
+        transform: translateY(50px);
+        opacity: 0; 
+        }
+      to { 
+        transform: translateY(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .bottom .center{
+      width: 200px;
+      height: 230px;
+      border-radius: 10px;
+      margin-left: 30px;
+      background-color: darkgray;
+      float: left;
+      
+    }
+    .bottomrightIn1{
+      animation: bottomrightIn1 3s ease;
+    }
+    @keyframes bottomrightIn1 {
+      from { 
+        transform: translateY(50px);
+        opacity: 0; 
+        }
+      to { 
+        transform: translateY(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .bottom .right{
+      width: 600px;
+      height: 230px;
+      border-radius: 10px;
+      margin-left: 40px;
+      background-color: darkseagreen;
+      float: left;
+      
+    }
+    .left2{
+      animation: left2 3s ease;
+    }
+    @keyframes left2 {
+      from { 
+        transform: translateX(-50px);
+        opacity: 0; 
+        }
+      to { 
+        transform: translateX(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .container2 .left{
+      width: 250px;
+      height: 60px;
+      border-radius: 10px;
+      margin-left: 30px;
+      background-color: rgb(218, 191, 191);
+      float: left;
+    }
+    .center2{
+      animation: center2 3s ease;
+    }
+    @keyframes center2 {
+      from { 
+        transform: translateY(50px);
+        opacity: 0; 
+        }
+      to { 
+        transform: translateY(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .container2 .center{
+      width: 600px;
+      height: 60px;
+      border-radius: 10px;
+      margin-left: 30px;
+      background-color: rgb(204, 131, 131);
+      float: left;
+    }
+    .right2{
+      animation: right2 3s ease;
+    }
+    @keyframes right2 {
+      from { 
+        transform: translateX(-50px);
+        opacity: 0;
+        }
+      to { 
+        transform: translateX(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .container2 .right{
+      width: 250px;
+      height: 60px;
+      border-radius: 10px;
+      margin-left: 30px;
+      background-color: rgb(211, 223, 143);
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container1">
+    <div class="top topIn1"></div>
+    <div class="bottom">
+      <div class="left bottomleftIn1"></div>
+      <div class="center bottomcenterIn1"></div>
+      <div class="right bottomrightIn1"></div>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="left left2"></div>
+    <div class="center center2"></div>
+    <div class="right right2"></div>
+  </div>
+</body>
+</html>
