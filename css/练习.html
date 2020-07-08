@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
   <title>Document</title>
   <style>
     .container1{
@@ -34,6 +34,31 @@
       border-radius: 10px;
       background-color: coral;
     }
+    .right-perIn1{
+      animation: right-perIn1 1s ease;
+    }
+    @keyframes right-perIn1 {
+      from { 
+        transform: translateY(50px);
+        opacity: 0; 
+        }
+      to { 
+        transform: translateY(0px);
+        opacity: 1; 
+         
+        }
+    }
+    .top .right-per{
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      position:absolute;
+      top:30px;
+      right:100px;
+      z-index:999;
+      background-color: hotpink;
+    }
+    
     .bottom{
       position:absolute;
       top:200px;
@@ -179,7 +204,10 @@
 </head>
 <body>
   <div class="container1">
-    <div class="top topIn1"></div>
+    <div class="top topIn1">
+      <div class="right-per right-perIn1"></div>
+      
+    </div>
     <div class="bottom">
       <div class="left bottomleftIn1"></div>
       <div class="center bottomcenterIn1"></div>
