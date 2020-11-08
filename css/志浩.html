@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<style>
+  .danc{
+    flex-direction: column;
+    display: flex;
+  }
+  .point:nth-child(1) {
+    height: 200px;
+    align-self: start;
+  }
+  .point:nth-child(2) {
+    height: 200px;
+    align-self:center;
+  }
+  .point:nth-child(3) {
+    height: 200px;
+    align-self:flex-end;
+  }
+</style>
+<body>
+  <div class="danc">
+    <div class="point">左上角</div>
+    <div class="point">中间</div>
+    <div class="point">右下角</div>
+  </div>
+</body>
+</html>

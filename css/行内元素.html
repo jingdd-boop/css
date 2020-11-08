@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行内元素设置外边距</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    span{
+      width: 100px;
+      height: 100px;
+      margin: 20px 20px;
+   /* margin的上下没有用，左右可以改变  */
+     padding:20px 20px; 
+       /* padding的上下左右都有yong  */
+      background: darkorange; 
+     } 
+    input{
+      background: cornflowerblue;
+      border: 1px solid #dddddd;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-top: 10px;
+      margin-bottom:10px;
+      margin-left:10px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" class="con">
+  <input type="text" class="con">
+  <span>123</span>
+  <span>234</span> 
+</body>
+</html>
